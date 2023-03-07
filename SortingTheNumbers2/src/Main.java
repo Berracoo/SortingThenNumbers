@@ -17,9 +17,7 @@ public class Main {
         t = scanner.nextInt();
         System.out.println("********************");
 
-        // if the number that the user entered isn't an integer it will throw an exception
-        // try part works no matter what catch but works if our input  doesn't match with our integer type.
-
+     
         if(f < s && f < t){
             if(s < t){
                 System.out.println("Sorting numbers as : f < s < t .");
